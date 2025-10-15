@@ -1,0 +1,50 @@
+header {
+    background: #156358;
+    height: 130px;
+}
+
+header nav.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+nav .a-logo {
+    display: flex;
+    align-items: center;
+    width: 214px;
+    gap: 13.33px;
+
+}
+
+nav .a-logo p {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 13.307px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130.565%; /* 17.374px */
+}
+nav .a-logo img {
+    width: 60.823px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+
+.menu .menu-item a {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+
