@@ -1,0 +1,28 @@
+.atrativo-titulo {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.atrativo-imagem img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+.atrativo-conteudo {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #333;
+}
+.atrativo-tipos {
+    margin-top: 2rem;
+    font-style: italic;
+}
+.voltar {
+    margin-top: 2rem;
+}
+.voltar a {
+    text-decoration: none;
+    color: #0073aa;
+}
+.voltar a:hover {
+    text-decoration: underline;
+}

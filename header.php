@@ -16,11 +16,9 @@
                 <?php
                 echo '<img src="' . get_template_directory_uri() . '/images/logo.png" alt="Logo do site">';
                 ?>
-                <p>PORTAL DE TURISMO RIO DO SUL</p>
+                PORTAL DE TURISMO RIO DO SUL
             </a>
-            <?php
-                wp_nav_menu();
-            ?>
+            <?php wp_nav_menu(); ?>
         </nav>
     </header>
     <?php

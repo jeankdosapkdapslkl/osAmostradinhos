@@ -1,4 +1,7 @@
 @import 'header.css';
+@import 'footer.css';
+@import 'archive-atrativos.css';
+@import 'single-atrativos.css';
 
 * {
     padding: 0;

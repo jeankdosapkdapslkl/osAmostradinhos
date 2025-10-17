@@ -1,0 +1,28 @@
+.atrativos-lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+.atrativo-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    background: #fff;
+}
+.atrativo-item:hover {
+    transform: translateY(-5px);
+}
+.atrativo-thumb img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.atrativo-item h2 {
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+.atrativo-item p {
+    margin: 0 1rem 1rem;
+    color: #555;
+}

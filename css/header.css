@@ -10,15 +10,31 @@ header nav.container {
     height: 100%;
 }
 
+header nav.container a {
+    color: #ffffffe8;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+header nav.container a:hover {
+    color: #fff;
+    transition: all .3s;
+}
+
 nav .a-logo {
     display: flex;
     align-items: center;
     width: 214px;
     gap: 13.33px;
-
+    text-decoration: none;
 }
 
-nav .a-logo p {
+nav .a-logo{
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -37,14 +53,7 @@ nav .a-logo img {
     list-style: none;
 }
 
-.menu .menu-item a {
+.menu .menu-item.current-menu-item a {
+    font-weight: 800;
     color: #FFF;
-    font-family: Inter;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-decoration: none;
 }
-
-
