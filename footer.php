@@ -1,5 +1,6 @@
     <footer>
         <div class="container footer-menu">
+            
             <div>
                 <h1>O que fazer?</h1>
                 <ul> 
@@ -14,7 +15,7 @@
                 </ul>
             </div>
             <div>
-                <h1>O que fazer?</h1>
+                <h1>Sobre a Cidade</h1>
                 <ul> 
                     <li >ACADEMIA</li>
                     <li>ACADEMIAS</li>

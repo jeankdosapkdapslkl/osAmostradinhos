@@ -1,5 +1,6 @@
 @import 'header.css';
 @import 'footer.css';
+@import 'inicio.css';
 @import 'archive-atrativos.css';
 @import 'single-atrativos.css';
 
@@ -14,7 +15,3 @@
     width: 1245px;
     margin: 0 auto
 }
-
-
-
-

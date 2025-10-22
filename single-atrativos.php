@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <main class="site-main container">
-
+    h1
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <article class="atrativo-single">
             <h1 class="atrativo-titulo"><?php the_title(); ?></h1>
