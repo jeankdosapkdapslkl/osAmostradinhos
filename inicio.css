@@ -1,0 +1,136 @@
+.right-left-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 60px auto;
+}
+
+/* LEFT SIDE */
+.left {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex: 1;
+}
+
+.left-post {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 32px);
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.left-post:hover {
+  transform: translateY(-4px);
+}
+
+.left-post img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.left-content {
+  padding: 10px 15px;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(180deg, transparent, rgba(0,0,0,0.6));
+}
+
+.left-content h3 {
+  font-size: 16px;
+  margin: 8px 0 0;
+}
+
+.left-content a {
+  color: #222;
+  text-decoration: none;
+}
+
+.left-content a:hover {
+  color: #0073aa;
+}
+
+/* RIGHT SIDE */
+.right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  max-width: 550px;
+}
+
+.main-post {
+  width: 100%;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  background: #fff; /* Garante fundo visível */
+}
+
+.main-post img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* Conteúdo sobre a imagem (título e resumo) */
+.main-content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  color: #fff;
+  background: linear-gradient(180deg, transparent, rgba(0,0,0,0.6));
+}
+
+.main-content h2 {
+  font-size: 22px;
+  margin: 0 0 10px;
+}
+
+.main-content p {
+  font-size: 14px;
+  color: #ddd;
+}
+
+.main-content a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 🔥 Descrição agora abaixo da imagem, visível e com estilo */
+.descricao {
+  color: #111;                  /* preto bem visível */
+  font-weight: 600;             /* semi-negrito */
+  background: #fdfdfd;          /* fundo branco limpo */
+  padding: 20px 22px;
+  line-height: 1.6;
+  font-size: 16px;
+  border-radius: 0 0 10px 10px; /* segue o formato do card */
+  box-shadow: inset 0 1px 0 rgba(0,0,0,0.05);
+}
+
+/* Responsivo */
+@media (max-width: 900px) {
+  .right-left-container {
+    flex-direction: column-reverse;
+  }
+
+  .left-post {
+    width: 100%;
+  }
+
+  .right {
+    max-width: 100%;
+  }
+}

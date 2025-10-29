@@ -1,0 +1,73 @@
+.atrativo-titulo {
+    font-size: 1.2rem;      
+    font-weight: 600;       
+    text-transform: none;   
+    color: #f5f5f5;         
+    margin-bottom: 0.3rem;  
+}
+
+.atrativo-imagem img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.atrativo-conteudo {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #333;
+}
+
+.atrativo-tipos {
+    margin-top: 2rem;
+    font-style: italic;
+}
+
+.voltar {
+    margin-top: 2rem;
+}
+
+.voltar a {
+    text-decoration: none;
+    color: #0073aa;
+}
+
+.voltar a:hover {
+    text-decoration: underline;
+}
+
+/* ===============================
+   SEÇÃO DOS TÍTULOS NA HOME
+   =============================== */
+
+/* "Acampamentos" — título pequeno */
+.main-content h2 a {
+  font-size: 0.9rem;       /* ↓ antes era 1.2rem — diminuímos aqui */
+  font-weight: 600;
+  color: #e0e0e0;          /* tom mais suave que branco puro */
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  text-transform: none;
+  margin-bottom: 0.2rem;
+  display: inline-block;
+}
+
+/* Hover opcional */
+.main-content h2 a:hover {
+  text-decoration: underline;
+}
+
+/* "Sítio Barnabé" — título grande */
+.main-content p {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0.2rem 0 1rem;
+  line-height: 1.2;
+}
+
+/* Opcional — sombra leve para destacar sobre imagens */
+.main-content h2 a,
+.main-content p {
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
