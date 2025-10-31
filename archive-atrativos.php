@@ -14,7 +14,7 @@
                                 <?php the_post_thumbnail('medium'); ?>
                             </div>
                         <?php endif; ?>
-                        <h2><?php the_title(); ?></h2>
+                        <h3><?php the_title(); ?></h3>
                         <p><?php echo wp_trim_words(get_the_excerpt(), 20, '...'); ?></p>
                     </a>
                 </article>
